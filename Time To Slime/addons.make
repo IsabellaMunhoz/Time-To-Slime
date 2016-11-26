@@ -1,0 +1,3 @@
+ofxThreadedImageLoader
+ofxGui
+ofxVectorGraphics
