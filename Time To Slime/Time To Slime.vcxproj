@@ -194,8 +194,26 @@ F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs;%(AdditionalInc
     <ClCompile Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.cpp" />
     <ClCompile Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs\CreEPS.cpp" />
     <ClCompile Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\src\ofxVectorGraphics.cpp" />
+    <ClCompile Include="PilulaBlue.cpp" />
+    <ClCompile Include="PilulaGreen.cpp" />
+    <ClCompile Include="PilulaRed.cpp" />
+    <ClCompile Include="src\Colisao.cpp" />
+    <ClCompile Include="src\Derrota.cpp" />
+    <ClCompile Include="src\Inimigo.cpp" />
+    <ClCompile Include="src\Instrucao.cpp" />
+    <ClCompile Include="src\Labirinto.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Menu.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
+    <ClCompile Include="src\Pilula.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Setor_0_0.cpp" />
+    <ClCompile Include="src\Setor_0_1.cpp" />
+    <ClCompile Include="src\Setor_0_2.cpp" />
+    <ClCompile Include="src\Setor_1_0.cpp" />
+    <ClCompile Include="src\Setor_1_1.cpp" />
+    <ClCompile Include="src\Setor_1_2.cpp" />
+    <ClCompile Include="src\Vitoria.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxGui\src\ofxBaseGui.h" />
@@ -211,7 +229,27 @@ F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs;%(AdditionalInc
     <ClInclude Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs\CreEPS.hpp" />
     <ClInclude Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs\CreEPS_Types.hpp" />
     <ClInclude Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\src\ofxVectorGraphics.h" />
+    <ClInclude Include="Object2.h" />
+    <ClInclude Include="PilulaBlue.h" />
+    <ClInclude Include="PilulaGreen.h" />
+    <ClInclude Include="PilulaRed.h" />
+    <ClInclude Include="src\Colisao.h" />
+    <ClInclude Include="src\Derrota.h" />
+    <ClInclude Include="src\Inimigo.h" />
+    <ClInclude Include="src\Instrucao.h" />
+    <ClInclude Include="src\Labirinto.h" />
+    <ClInclude Include="src\Menu.h" />
+    <ClInclude Include="src\Object.h" />
     <ClInclude Include="src\ofApp.h" />
+    <ClInclude Include="src\Pilula.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Setor_0_0.h" />
+    <ClInclude Include="src\Setor_0_1.h" />
+    <ClInclude Include="src\Setor_0_2.h" />
+    <ClInclude Include="src\Setor_1_0.h" />
+    <ClInclude Include="src\Setor_1_1.h" />
+    <ClInclude Include="src\Setor_1_2.h" />
+    <ClInclude Include="src\Vitoria.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
@@ -224,6 +262,9 @@ F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs;%(AdditionalInc
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
       <AdditionalIncludeDirectories>$(OF_ROOT)\libs\openFrameworksCompiled\project\vs</AdditionalIncludeDirectories>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\.DS_Store" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ProjectExtensions>

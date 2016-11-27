@@ -40,6 +40,60 @@
     <ClCompile Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs\CreEPS.cpp">
       <Filter>addons\ofxVectorGraphics\libs</Filter>
     </ClCompile>
+    <ClCompile Include="src\Colisao.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Derrota.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inimigo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Instrucao.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Labirinto.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pilula.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setor_0_0.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setor_0_1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setor_0_2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setor_1_0.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setor_1_1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Setor_1_2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vitoria.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PilulaRed.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PilulaBlue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PilulaGreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -113,8 +167,73 @@
     <ClInclude Include="F:\FrameWorks\of_v0.9.3_vs_release\addons\ofxVectorGraphics\libs\CreEPS.hpp">
       <Filter>addons\ofxVectorGraphics\libs</Filter>
     </ClInclude>
+    <ClInclude Include="src\Colisao.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Derrota.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Inimigo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Instrucao.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Labirinto.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pilula.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setor_0_0.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setor_0_1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setor_0_2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setor_1_0.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setor_1_1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Setor_1_2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vitoria.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PilulaRed.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PilulaBlue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PilulaGreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Object2.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\.DS_Store">
+      <Filter>src</Filter>
+    </None>
   </ItemGroup>
 </Project>
